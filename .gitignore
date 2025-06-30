@@ -1,0 +1,33 @@
+# Terraform 상태 및 캐시
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+*.tfplan
+*.tfapply
+*.tfbackup
+
+# 변수 파일 (민감 정보 포함 가능)
+terraform.tfvars
+*.tfvars
+
+# 로컬 출력 파일
+output/
+*.zip
+*.tar.gz
+
+# SSH 키 (예: private key)
+*.pem
+*.key
+
+# 로컬 편집기 설정
+.vscode/
+.idea/
+*.swp
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# Open5gs helm files
+open5gs-helm-repo/
